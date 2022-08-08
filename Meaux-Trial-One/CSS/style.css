@@ -14,6 +14,9 @@
     background-color: rgba(218, 220, 221, 0.788);
     background-size: cover;
     background-position: center;
+    left: 0px;
+    top: 0px;
+    z-index: -1
 }
 .navbar{
     width: 85;
