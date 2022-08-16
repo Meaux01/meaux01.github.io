@@ -1,0 +1,65 @@
+*{
+    background-color: rgba(26, 26, 223, 0.432);
+}
+.navbar{
+    width: 50%;
+    margin: auto;
+    padding:  5px 5px;
+    display: flex;
+    position: sticky;
+    top: 0%;
+    box-shadow: 3px 3px 8px 2px rgb(0, 0, 255);
+    background-color: rgba(0,0,0,0);
+}
+body{
+    background-color: rgba(255, 255, 255, 0);
+}
+.h1{
+    color: rgb(38, 0, 255);
+    background-color: rgba(0,0,0,0);
+    text-align: center;
+    font-size: xx-large;
+    text-transform: uppercase;
+    width: 50%;
+    margin: auto;
+}
+p{
+    background-color: rgba(0, 0, 255, 0);
+}
+.img{
+    position: relative;
+    border: groove;
+    border-color: black;
+    box-shadow: 3px 3px 8px 2px black;
+    width: 30%;
+    background-color: rgba(0, 0, 255, 0.014);
+    float:left;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+.form{
+    /* display: inline-block; */
+    position: relative;
+    padding-top: 1px;
+    width: 30%;
+    border: groove;
+    background-color: rgba(66, 66, 245, 0);
+    box-shadow: 3px 3px 8px 2px black;
+    float: right;
+    margin-right: 25px;
+    
+}
+.tribute-info{
+    color: black;
+    text-emphasis-color: blue;
+    background-color: rgba(255, 255, 255, 0);
+}
+.tribute-info li{
+    background-color: rgba(66, 66, 245, 0);
+}
+.tribute-info:hover{
+    background-color: rgba(99, 99, 238, 0.911);
+}
+.tribute-info b{
+    background-color: rgba(66, 66, 245, 0);
+}
