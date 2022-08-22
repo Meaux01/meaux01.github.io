@@ -1,18 +1,23 @@
 * {
   background-color: rgba(26, 26, 223, 0.432);
 }
+header {
+  background-color: rgba(255, 255, 255, 0);
+  margin-bottom: 100px;
+  display: flex;
+  position: sticky;
+  top:0;
+  z-index: 1;
+}
 .navbar {
   width: 50%;
   margin: auto;
   padding: 5px 5px;
   display: flex;
   position: sticky;
-  top: 0%;
+  bottom: 0%;
   box-shadow: 3px 3px 8px 2px rgb(0, 0, 255);
   background-color: rgba(0, 0, 0, 0);
-}
-body {
-  background-color: rgba(255, 255, 255, 0);
 }
 .h1 {
   color: rgb(38, 0, 255);
@@ -23,15 +28,18 @@ body {
   width: 50%;
   margin: auto;
 }
+body {
+  background-color: rgba(255, 255, 255, 0);
+}
 p {
   background-color: rgba(0, 0, 255, 0);
 }
 .img {
-  position: relative;
+position: relative;
   border: groove;
   border-color: black;
   box-shadow: 3px 3px 8px 2px black;
-  width: 30%;
+  width: 40%;
   background-color: rgba(0, 0, 255, 0.014);
   float: left;
   margin-left: 25px;
@@ -41,7 +49,7 @@ p {
   /* display: inline-block; */
   position: relative;
   padding-top: 1px;
-  width: 30%;
+  width: 50%;
   border: groove;
   background-color: rgba(66, 66, 245, 0);
   box-shadow: 3px 3px 8px 2px black;
@@ -57,7 +65,7 @@ p {
   background-color: rgba(66, 66, 245, 0);
 }
 .tribute-info:hover {
-  background-color: rgba(99, 99, 238, 0.911);
+  background-color: rgba(99, 99, 238, 0.414);
 }
 .tribute-info b {
   background-color: rgba(66, 66, 245, 0);
